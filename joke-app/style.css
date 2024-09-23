@@ -24,3 +24,22 @@ body {
 .app:hover {
   transform: scale(1.01);
 }
+h6{
+  font-size: .9rem;
+}
+
+@media  screen and ( max-width:400px)  {
+  .app{
+    padding: 10px 20px;
+    width: 50%;
+    min-width: 200px;
+    max-width: 400px;
+  }
+  h3{
+    font-size: 1.4rem;
+  }
+  p{
+    font-size: 1.2rem;
+  }
+  
+}
